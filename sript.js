@@ -4,7 +4,7 @@ function getTriangleArea(a, h) {
     } else {
         value = a * h / 2;
     }
-    return;
+    return a * h/ 2;
 }
 
 var triangle1Area = getTriangleArea(10, 6),
